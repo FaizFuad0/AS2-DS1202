@@ -121,22 +121,3 @@ The report is printed to the terminal, and the logging section writes an entry t
    git push -u origin main
    git push origin feature-logging
    ```
-
-## 6. Screenshots in the evidence PDF
-
-| # | Screenshot | What it shows |
-|---|------------|---------------|
-| 1 | SSH key generation | `ssh-keygen` output and the public key |
-| 2 | GitHub SSH key / login test | Key added to GitHub and `ssh -T git@github.com` success |
-| 3 | Directory creation | `mkdir` and `ls -R` / `tree` output |
-| 4 | Permissions | `chmod` and `ls -l` showing the permissions |
-| 5 | Running `sysinfo.sh` | Script output in the terminal |
-| 6 | First commit | `git add` / `git commit` and `git log` |
-| 7 | Feature branch | `git switch -c feature-logging` and `git branch` |
-| 8 | Logging section tested | Script output and log file after the edit |
-| 9 | Merge into `main` | `git merge feature-logging` (and conflict resolution, if any) |
-| 10 | Git log graph | `git log --oneline --graph --all` |
-| 11 | Remote and push | `git remote -v` and the output of both `git push` commands |
-| 12 | GitHub repository page | Public repo showing `main`, `feature-logging` and `README.md` |
-
-> Adjust the numbers and descriptions so the list matches the screenshots in your PDF exactly.
