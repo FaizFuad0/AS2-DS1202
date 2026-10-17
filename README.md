@@ -33,7 +33,7 @@ ds1202-project/
 ### 3.1 Generate an SSH key
 
 ```bash
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "26FTT1099@student.pb.edu.bn"
 cat ~/.ssh/id_ed25519.pub
 ```
 
@@ -46,7 +46,7 @@ ssh -T git@github.com
 ### 3.2 Log in to the machine
 
 ```bash
-ssh <username>@<server-address>
+ssh 26FTT1099@iib.politeknikbrunei.com
 ```
 
 > Fill in the server or VM you used for this assignment.
